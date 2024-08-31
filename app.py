@@ -6,7 +6,6 @@ import pandas as pd
 def load_data():
     df = pd.read_csv('LSTM-Predicted-2027.csv')  # Ensure this path is correct
     return df
-
 df = load_data()
 
 # Title of the web app
